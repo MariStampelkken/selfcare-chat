@@ -1,11 +1,14 @@
-import './App.css'
+import { BrowserRouter as Router } from 'react-router-dom';
+import RouterConfig from './routes/index';
+import './App.css';
+import './global.css'
 
 function App() {
   return (
-    <>
-      <h1>Selfcare chat</h1>
-    </>
-  )
+    <Router>
+    <RouterConfig />
+  </Router>
+  );
 }
 
-export default App
+export default App;
