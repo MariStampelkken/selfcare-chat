@@ -11,3 +11,8 @@
 .title {
     color: var(--lavender);
 }
+
+.linkButton {
+    position: relative;
+    height: 70%;
+}
