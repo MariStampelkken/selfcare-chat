@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './home.module.css';
 import LinkButton from '../../components/linkButton/LinkButton';
 
-function Home() {
+const Home: React.FC = () => {
     return (
       <div className={styles.home}>
         <h1 className={styles.title}> </h1>

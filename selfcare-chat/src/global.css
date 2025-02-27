@@ -13,6 +13,7 @@
 
   text-align: center;
 
+
   /* 
     GLOBAL CSS VARIABLES
   */
@@ -83,6 +84,7 @@
 #root {
   width: 100%;
   margin: 0;
+  background-color: var(--lavender);
 }
 
 body {
