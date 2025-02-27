@@ -14,8 +14,6 @@ const ChatWindow: React.FC = () => {
                     <p>Welcome to the chat!</p>
                 </div>
                 <div className={styles.chatFooter}>
-                    <input type="text" placeholder="Type a message..." />
-                    <button>Send</button>
                 </div>
             </div>
         </div>

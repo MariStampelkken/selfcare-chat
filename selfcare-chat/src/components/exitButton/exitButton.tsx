@@ -4,9 +4,9 @@ import React from 'react';
 
 const ExitButton: React.FC = () => {
   return (
-    <button className={styles.exitButton}>
-      <NavLink to="/">X</NavLink>
-    </button>
+    <NavLink to="/" className={styles.exitButton}>
+        X
+    </NavLink>
   );
 }
 export default ExitButton;

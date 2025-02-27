@@ -25,7 +25,10 @@
   --wisteria: rgb(180, 151, 214);
   --silver: rgb(202, 188, 185);
   --lavender: rgb(225, 226, 239);
+  --button-blue: rgba(150, 201, 255, 0.846);
+  --button-blue-hover: rgb(61, 134, 212);
   --black: rgb(2, 2, 10);
+  --transparent-white: rgba(255, 255, 255, 0.418);
   /* palette */
 
   --font-color: rgb(44, 44, 44);

@@ -3,9 +3,10 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 100vh;
     padding: 2rem;
     position: relative;
+    height: 100vh;
+    background-color: var(--lavender);
 }
 
 .title {
@@ -13,6 +14,8 @@
 }
 
 .linkButton {
-    position: relative;
-    height: 70%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
