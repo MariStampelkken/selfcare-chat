@@ -1,0 +1,11 @@
+.messageBox {
+    font-family: sans-serif;
+    font-size: 1rem;
+    align-items: center;
+    background-color: var(--yale-blue);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+    width: 16rem;
+    margin: 10px;
+}
